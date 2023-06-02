@@ -1,5 +1,4 @@
-
-[tool.flake8]
-ignore = "E501, F401"
-# E501 - Line too long (82 > 79 characters): Black makes this redundant
-# E501 - Module imported but unused: Black makes this redundant
+[flake8]
+ignore=
+    E501, # Line too long (82 > 79 characters): Black makes this redundant
+    E501 # Module imported but unused: Black makes this redundant
