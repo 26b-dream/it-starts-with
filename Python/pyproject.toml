@@ -8,3 +8,18 @@ line_length = 120
 [tool.pylint]
 disable = "C0301"
 # C0301 - Line too long: Black makes this redundant
+
+[tool.poetry]
+# name = "Name"
+version = "0.0.1"
+# description = "Description"
+authors = ["26b_dream <1@1.1>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+flake8 = "*"
